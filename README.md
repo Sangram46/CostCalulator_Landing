@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# CostCalulator_Landing
+I created a fully responsive, pixel-perfect cost calculator landing page by converting a Figma design into a functional UI. Using HTML, CSS, JavaScript, and ReactJS, I ensured interactive elements and smooth functionality, delivering a modern, user-friendly design optimized for all devices
+>>>>>>> 1c18c19e16995c78cc0ed2a1906386d3bf25a62c
