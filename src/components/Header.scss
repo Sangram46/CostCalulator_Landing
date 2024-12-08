@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .menu {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .menu a {
+    color: #fff; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, border 0.3s ease, border-radius 0.3s ease; /* Smooth transition */
+  }
+
+  
+  .menu a:hover {
+    background-color: white; 
+    color: #333; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+  }
+
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+
+    .menu.open {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+  }
+}
